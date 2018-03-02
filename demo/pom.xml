@@ -7,6 +7,15 @@
   <version>1.0-SNAPSHOT</version>
   <name>demo</name>
   <url>http://maven.apache.org</url>
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-start-parent</artifactId>
+	<version>1.5.8.RELEASE</version>
+  </parents>
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</properties.build.sourceEncoding>
+  	<JAVA8_HOME>C:\Programe Files\Java\jdk1.8.0_111</JAVA8_HOME>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
